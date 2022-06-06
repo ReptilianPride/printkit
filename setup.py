@@ -16,6 +16,8 @@ setup(
     version=VERSION,
     author="printkit (CipherKill)",
     author_email="alanraju99@gmail.com",
+	url="https://github.com/CipherKill/printkit",
+	license='MIT',
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
