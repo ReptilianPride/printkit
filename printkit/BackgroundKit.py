@@ -19,41 +19,41 @@ class Colors:
     
 class bgcolor:
     def default():
-        print(bgColors.default)
-    def black(data):
-        print(bgColors.black)
-    def black(data):
-        print(bgColors.black)
-    def red(data):
-        print(bgColors.red)
-    def green(data):
-        print(bgColors.green)
-    def yellow(data):
-        print(bgColors.yellow)
-    def blue(data):
-        print(bgColors.blue)
-    def magenta(data):
-        print(bgColors.magenta)
-    def cyan(data):
-        print(bgColors.cyan)
-    def lightgrey(data):
-        print(bgColors.lightgrey)
-    def darkgrey(data):
-        print(bgColors.darkgrey)
-    def lightred(data):
-        print(bgColors.lightred)
-    def lightgreen(data):
-        print(bgColors.lightgreen)
-    def lightyellow(data):
-        print(bgColors.lightyellow)
-    def lightblue(data):
-        print(bgColors.lightblue)
-    def lightmagenta(data):
-        print(bgColors.lightmagenta)
-    def lightcyan(data):
-        print(bgColors.lightcyan)
-    def white(data):
-        print(bgColors.white)
+        print(Colors.default)
+    def black():
+        print(Colors.black)
+    def black():
+        print(Colors.black)
+    def red():
+        print(Colors.red)
+    def green():
+        print(Colors.green)
+    def yellow():
+        print(Colors.yellow)
+    def blue():
+        print(Colors.blue)
+    def magenta():
+        print(Colors.magenta)
+    def cyan():
+        print(Colors.cyan)
+    def lightgrey():
+        print(Colors.lightgrey)
+    def darkgrey():
+        print(Colors.darkgrey)
+    def lightred():
+        print(Colors.lightred)
+    def lightgreen():
+        print(Colors.lightgreen)
+    def lightyellow():
+        print(Colors.lightyellow)
+    def lightblue():
+        print(Colors.lightblue)
+    def lightmagenta():
+        print(Colors.lightmagenta)
+    def lightcyan():
+        print(Colors.lightcyan)
+    def white():
+        print(Colors.white)
     def custom(color):
         print(color)
 
