@@ -23,7 +23,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     keywords=['python','print','terminal','console','colors','style'],
-	install_requires=[]
+	install_requires=[],
     classifiers=[
 		"Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
