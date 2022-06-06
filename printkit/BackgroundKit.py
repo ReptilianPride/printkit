@@ -17,7 +17,7 @@ class Colors:
     lightcyan="\033[106m"
     white="\033[107m"
     
-    class bgcolor:
+class bgcolor:
     def default():
         print(bgColors.default)
     def black(data):

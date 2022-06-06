@@ -17,7 +17,7 @@ class Colors:
     lightcyan='\033[96m'
     white='\033[97m'
     
-    class cprint:
+class cprint:
     def default(data):
         print(ForeColors.default+str(data))
     def black(data):
