@@ -1,3 +1,2 @@
-from printkit import cprint
-from printkit import bgcolory
-
+from .TxtKit import cprint
+from .BackgroundKit import bgcolor
