@@ -1,4 +1,4 @@
-class Colors:
+class TextColor:
     default='\033[39m'
     black='\033[30m'
     red='\033[31m'
@@ -19,38 +19,38 @@ class Colors:
     
 class cprint:
     def default(data):
-        print(Colors.default+str(data)+Colors.default)
+        print(TextColor.default+str(data)+TextColor.default)
     def black(data):
-        print(Colors.black+str(data)+Colors.default)
+        print(TextColor.black+str(data)+TextColor.default)
     def red(data):
-        print(Colors.red+str(data)+Colors.default)
+        print(TextColor.red+str(data)+TextColor.default)
     def green(data):
-        print(Colors.green+str(data)+Colors.default)
+        print(TextColor.green+str(data)+TextColor.default)
     def yellow(data):
-        print(Colors.yellow+str(data)+Colors.default)
+        print(TextColor.yellow+str(data)+TextColor.default)
     def blue(data):
-        print(Colors.blue+str(data)+Colors.default)
+        print(TextColor.blue+str(data)+TextColor.default)
     def magenta(data):
-        print(Colors.magenta+str(data)+Colors.default)
+        print(TextColor.magenta+str(data)+TextColor.default)
     def cyan(data):
-        print(Colors.cyan+str(data)+Colors.default)
+        print(TextColor.cyan+str(data)+TextColor.default)
     def lightgrey(data):
-        print(Colors.lightgrey+str(data)+Colors.default)
+        print(TextColor.lightgrey+str(data)+TextColor.default)
     def darkgrey(data):
-        print(Colors.darkgrey+str(data)+Colors.default)
+        print(TextColor.darkgrey+str(data)+TextColor.default)
     def lightred(data):
-        print(Colors.lightred+str(data)+Colors.default)
+        print(TextColor.lightred+str(data)+TextColor.default)
     def lightgreen(data):
-        print(Colors.lightgreen+str(data)+Colors.default)
+        print(TextColor.lightgreen+str(data)+TextColor.default)
     def lightyellow(data):
-        print(Colors.lightyellow+str(data)+Colors.default)
+        print(TextColor.lightyellow+str(data)+TextColor.default)
     def lightblue(data):
-        print(Colors.lightblue+str(data)+Colors.default)
+        print(TextColor.lightblue+str(data)+TextColor.default)
     def lightmagenta(data):
-        print(Colors.lightmagenta+str(data)+Colors.default)
+        print(TextColor.lightmagenta+str(data)+TextColor.default)
     def lightcyan(data):
-        print(Colors.lightcyan+str(data)+Colors.default)
+        print(TextColor.lightcyan+str(data)+TextColor.default)
     def white(data):
-        print(Colors.white+str(data)+Colors.default)
+        print(TextColor.white+str(data)+TextColor.default)
     def custom(data,color=''):
-        print(color+data+Colors.default)
+        print(color+data+TextColor.default)

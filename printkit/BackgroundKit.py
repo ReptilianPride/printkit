@@ -1,4 +1,4 @@
-class Colors:
+class BgColor:
     default="\033[49m"
     black="\033[40m"
     red="\033[41m"
@@ -19,41 +19,41 @@ class Colors:
     
 class bgcolor:
     def default():
-        print(Colors.default)
+        print(BgColor.default)
     def black():
-        print(Colors.black)
+        print(BgColor.black)
     def black():
-        print(Colors.black)
+        print(BgColor.black)
     def red():
-        print(Colors.red)
+        print(BgColor.red)
     def green():
-        print(Colors.green)
+        print(BgColor.green)
     def yellow():
-        print(Colors.yellow)
+        print(BgColor.yellow)
     def blue():
-        print(Colors.blue)
+        print(BgColor.blue)
     def magenta():
-        print(Colors.magenta)
+        print(BgColor.magenta)
     def cyan():
-        print(Colors.cyan)
+        print(BgColor.cyan)
     def lightgrey():
-        print(Colors.lightgrey)
+        print(BgColor.lightgrey)
     def darkgrey():
-        print(Colors.darkgrey)
+        print(BgColor.darkgrey)
     def lightred():
-        print(Colors.lightred)
+        print(BgColor.lightred)
     def lightgreen():
-        print(Colors.lightgreen)
+        print(BgColor.lightgreen)
     def lightyellow():
-        print(Colors.lightyellow)
+        print(BgColor.lightyellow)
     def lightblue():
-        print(Colors.lightblue)
+        print(BgColor.lightblue)
     def lightmagenta():
-        print(Colors.lightmagenta)
+        print(BgColor.lightmagenta)
     def lightcyan():
-        print(Colors.lightcyan)
+        print(BgColor.lightcyan)
     def white():
-        print(Colors.white)
-    def custom(color):
+        print(BgColor.white)
+    def custom(color=''):
         print(color)
 
