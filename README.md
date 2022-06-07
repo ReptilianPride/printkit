@@ -31,9 +31,21 @@ from printkit import *
 cprint.[colorname]([string]) #change text color
 bgcolor.[colorname]([string]) #change background color
 
+
 #custom options
 cprint.custom([string],color=[ansi color code])
 bgcolor.custom(color=[ansi color code])
+```
+
+## Miscellaneous Methods ##
+```python
+import printkit
+
+#To get printkit version
+printkit.version()
+
+#To get the available colornames
+printkit.colors()
 ```
 
 ## For changing output color ##

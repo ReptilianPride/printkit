@@ -1,22 +1,5 @@
-class BgColor:
-    default="\033[49m"
-    black="\033[40m"
-    red="\033[41m"
-    green="\033[42m"
-    yellow="\033[43m"
-    blue="\033[44m"
-    magenta="\033[45m"
-    cyan="\033[46m"
-    lightgrey="\033[47m"
-    darkgrey="\033[100m"
-    lightred="\033[101m"
-    lightgreen="\033[102m"
-    lightyellow="\033[103m"
-    lightblue="\033[104m"
-    lightmagenta="\033[105m"
-    lightcyan="\033[106m"
-    white="\033[107m"
-    
+from .ColorKit import BgColor
+
 class bgcolor:
     def default():
         print(BgColor.default)
