@@ -7,7 +7,7 @@ import os
 os.system('')
 
 def version():
-    print('Current Version: 0.1.2')
+    print('Current Version: 0.1.3')
 
 def colors():
     availableColors=[
