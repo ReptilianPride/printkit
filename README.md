@@ -55,7 +55,7 @@ printkit.colors()
 cprint.green('Success')
 ```
 ### Output ###
-![output for color text](./docs/out1.PNG)
+![output for color text](https://github.com/CipherKill/printkit/raw/main/docs/out1.PNG)
 
 ## For changing background color of terminal/console ##
 ### Code ### 
@@ -71,6 +71,6 @@ bgcolor.default()
 ```
 
 ### Output ###
-![output for background change](./docs/out2.PNG)
+![output for background change](https://github.com/CipherKill/printkit/raw/main/docs/out2.PNG)
 
 ## Click [here](./docs/COLORS.md) to see the available colors
