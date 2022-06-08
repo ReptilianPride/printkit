@@ -5,7 +5,7 @@ class TextColor:
     green='\033[32m'
     yellow='\033[33m'
     blue='\033[34m'
-    magenta='\033[35m'
+    purple='\033[35m'
     cyan='\033[36m'
     lightgrey='\033[37m'
     darkgrey='\033[90m'
@@ -24,7 +24,7 @@ class BgColor:
     green="\033[42m"
     yellow="\033[43m"
     blue="\033[44m"
-    magenta="\033[45m"
+    purple="\033[45m"
     cyan="\033[46m"
     lightgrey="\033[47m"
     darkgrey="\033[100m"

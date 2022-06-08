@@ -5,8 +5,6 @@ class bgcolor:
         print(BgColor.default)
     def black():
         print(BgColor.black)
-    def black():
-        print(BgColor.black)
     def red():
         print(BgColor.red)
     def green():
@@ -15,8 +13,8 @@ class bgcolor:
         print(BgColor.yellow)
     def blue():
         print(BgColor.blue)
-    def magenta():
-        print(BgColor.magenta)
+    def purple():
+        print(BgColor.purple)
     def cyan():
         print(BgColor.cyan)
     def lightgrey():

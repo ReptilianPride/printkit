@@ -13,8 +13,8 @@ class cprint:
         print(TextColor.yellow+str(data)+TextColor.default)
     def blue(data):
         print(TextColor.blue+str(data)+TextColor.default)
-    def magenta(data):
-        print(TextColor.magenta+str(data)+TextColor.default)
+    def purple(data):
+        print(TextColor.purple+str(data)+TextColor.default)
     def cyan(data):
         print(TextColor.cyan+str(data)+TextColor.default)
     def lightgrey(data):

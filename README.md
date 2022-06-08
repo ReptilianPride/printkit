@@ -55,18 +55,22 @@ printkit.colors()
 cprint.green('Success')
 ```
 ### Output ###
-->place output image here
+![output for color text](./docs/out1.PNG)
 
 ## For changing background color of terminal/console ##
 ### Code ### 
 ```python
 #Change the background color to cyan
 bgcolor.cyan()
+
+#Print with black text
+cprint.black('Hello World')
+
 #Make the background color to default
 bgcolor.default()
 ```
 
 ### Output ###
-->place output image here
+![output for background change](./docs/out2.PNG)
 
-## Click [here]() to see the available colors
+## Click [here](./docs/COLORS.md) to see the available colors
