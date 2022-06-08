@@ -14,7 +14,7 @@ DESCRIPTION = 'Printkit is an easy to use python package which contains various 
 setup(
     name="printkit",
     version=VERSION,
-    author="printkit (CipherKill)",
+    author="CipherKill",
     author_email="alanraju99@gmail.com",
 	url="https://github.com/CipherKill/printkit",
 	license='MIT',
