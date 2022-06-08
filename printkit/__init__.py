@@ -2,6 +2,10 @@ from .TextKit import cprint
 from .BackgroundKit import bgcolor
 from .ColorKit import *
 
+#for windows support
+import os
+os.system('')
+
 def version():
     print('Current Version: 0.1')
 
